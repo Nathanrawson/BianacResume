@@ -4,10 +4,15 @@ import './App.css';
 import Link from './Link';
 import BottomLinks from './BottomLinks'
 
-function GetImage() {
+function GetPortfolioNum() {
     var urlLength = window.location.href.substring().length
     var num = urlLength - 10;
     var portfolio = window.location.href.substring(num);
+    return portfolio;
+}
+
+function GetImage() {
+    var portfolio = GetPortfolioNum()
 
     if (portfolio === "portfolio1") {
         return "/static/media/biancaUEL.2c58c3c0.jpg"
@@ -21,7 +26,7 @@ function GetImage() {
 }
 
 function GetLink() {
-    var portfolio = window.location.href.substring(32);
+    var portfolio = GetPortfolioNum();
     if (portfolio === "portfolio1") {
         return (<div id="PortfolioLinks"><div className="portfolio-link-div float-right"><Link href="./portfolio2">
             <div className="portfolio-inner-div1"><h2 className="portfolio-link">STUDENT BEANS INSTAGRAM</h2></div>
@@ -45,7 +50,7 @@ function GetLink() {
 }
 
 function Wording() {
-    var portfolio = window.location.href.substring(32);
+    var portfolio = GetPortfolioNum()
 
     if (portfolio === "portfolio1") {
         return <div ><div><h3>UNIVERSITY OF EAST LONDON</h3><div id="WordingContent">
