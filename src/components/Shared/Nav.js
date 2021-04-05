@@ -21,7 +21,7 @@ const Nav = (props) => {
                         <Link to={() => window.location.href.includes("/") ? "../portfolio" : "./portfolio"}><p className="nav-link">Portfolio<span className="sr-only">(current)</span></p></Link>
                     </li>
                     <li className="pull right nav-item active">
-                        <Link to={() => window.location.href.includes("/") ? "../contact" : "./contact"}><p className="nav-link" href="#">Contact Me<span className="sr-only">(current)</span></p></Link>
+                        <Link to={() => window.location.href.includes("/") ? "../contact" : "./contact"}><p className="nav-link">Contact Me<span className="sr-only">(current)</span></p></Link>
                     </li>
                     <li>
                         <p onClick={() => { window.open("https://www.instagram.com/biancaxfranco/") }}><i className="fa fa-instagram" aria-hidden="true"></i></p>

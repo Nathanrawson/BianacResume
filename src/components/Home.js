@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from './Link'
 import './App.css';
 
 const Home = (props) => {
@@ -20,14 +21,14 @@ const Home = (props) => {
     </div>
         <div id="HomeLinks">
             <div>
-                <h1><a className="minerva-font" href="mailto:email@example.com">Get in Touch →</a>
+                <h1><Link href="mailto:email@example.com"><p className="minerva-font" >Get in Touch →</p></Link>
                 </h1>
             </div>
             <div>
-                <h3><a className="minerva-font" onClick={() => { window.open("https://www.instagram.com/biancaxfranco") }}
-                >Instagram</a>&#65279; / <a className="minerva-font"
-                    onClick={() => { window.open("https://www.tiktok.com/@biancaxfranco?lang=en") }}>Tiktok</a> / <a className="minerva-font"
-                        onClick={() => { window.open("https://www.linkedin.com/in/bianca-franco-97a72910a/") }}>Linkedin</a>
+                <h3><p className="minerva-font" onClick={() => { window.open("https://www.instagram.com/biancaxfranco") }}
+                >Instagram</p>&#65279; / <p className="minerva-font"
+                    onClick={() => { window.open("https://www.tiktok.com/@biancaxfranco?lang=en") }}>Tiktok</p> / <p className="minerva-font"
+                        onClick={() => { window.open("https://www.linkedin.com/in/bianca-franco-97a72910a/") }}>Linkedin</p>
                 </h3>
             </div>
         </div>
