@@ -136,7 +136,7 @@ h3{
 #HomeLinks h1 a{
     text-decoration-line: underline;
     text-decoration-style: solid;
-    text-decoration-color: currentColor;
+    text-decoration-color: #f08e80;
     text-decoration-thickness: 1px;
     text-underline-offset: .2em;
     text-decoration-skip: auto;

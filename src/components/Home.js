@@ -1,5 +1,6 @@
 import React from 'react'
-import Link from './Link'
+import HomeLink from './Link'
+import { Link } from 'react-router-dom';
 import './App.css';
 
 const Home = (props) => {
@@ -16,12 +17,12 @@ const Home = (props) => {
                     MARKETER.
             </h1>
             </div>
-            <button id="ResumeButton" className="btn btn-primary">Resume</button>
+            <Link to="/Bianca+Franco+Resume+2021.pdf" target="_blank" ><button id="ResumeButton" className="btn btn-primary">Resume</button></Link>
         </div>
     </div>
         <div id="HomeLinks">
             <div>
-                <h1><Link href="mailto:email@example.com"><span className="minerva-font" >Get in Touch →</span></Link>
+                <h1><HomeLink href="mailto:email@example.com"><span className="minerva-font" >Get in Touch →</span></HomeLink>
                 </h1>
             </div>
             <div>
