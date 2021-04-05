@@ -27,11 +27,7 @@ const App = () => {
             </Route>
             <Route path="/portfolio" exact component={Portfolio}>
             </Route>
-            <Route path="/portfolio/portfolio1" exact component={PortfolioDetail}>
-            </Route>
-            <Route path="/portfolio/portfolio2" exact component={PortfolioDetail}>
-            </Route>
-            <Route path="/portfolio/portfolio3" exact component={PortfolioDetail}>
+            <Route path="/portfolio/:id" exact component={PortfolioDetail}>
             </Route>
             <Route path="/contact" exact component={Contact}>
             </Route>

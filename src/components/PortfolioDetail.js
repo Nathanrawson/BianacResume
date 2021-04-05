@@ -5,7 +5,9 @@ import Link from './Link';
 import BottomLinks from './BottomLinks'
 
 function GetImage() {
-    var portfolio = window.location.href.substring(32);
+    var urlLength = window.location.href.substring().length
+    var num = urlLength - 10;
+    var portfolio = window.location.href.substring(num);
 
     if (portfolio === "portfolio1") {
         return "/static/media/biancaUEL.2c58c3c0.jpg"
