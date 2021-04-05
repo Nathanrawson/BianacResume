@@ -1,0 +1,393 @@
+.nav-right-div{
+    width:100%;
+}
+
+.navbar{
+    background-color: #fdf0e6 !important;
+    height:130px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+body{
+    background-color: #fdf0e6 !important;
+}
+
+a{
+    color:  #77433b !important; 
+}
+p{
+    color:  #77433b !important; 
+}
+
+.fa:hover{
+ cursor: pointer;
+}
+
+.current-page{
+    border-bottom:1px solid black;
+}
+
+.navbar-nav li{
+    font-family: anziano;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+    line-height: 1.6em;
+    font-size: calc((1.1 - 1) * 1.2vw + 1rem);
+}
+
+.navbar-nav li i{
+    margin-left: 1vw;
+    width: 20px;
+    height: 20px;
+    margin-top: 14px;
+}
+
+#site-title{
+    font-size:calc((2 - 1) * 1.2vw + 1rem);
+    font-family: minerva-modern;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: uppercase;
+    line-height: 1.4em;
+    color:#f08e80 !important;
+}
+
+#LandingImage{
+    min-height: 90vh;
+    max-height: 90vh;
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-image: url("BiancaFranco.jpg");
+    background-position-y: -620px;
+}
+
+.landing-title{
+    margin: 2rem 0;
+    font-size: calc((4.9 - 1) * 1.2vw + 1rem);
+    color: white;
+    line-height: 1.1816;
+    font-family: minerva-modern;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: uppercase;
+}
+
+#LandingContent{
+    padding-top: 90px;
+    padding-left:5%;
+}
+
+#ResumeButton{
+    color: #fff;
+    background-color: #f08e80;
+    border-color: #f08e80;
+    border-radius:0;
+    height: 80px;
+    width: 150px;
+    font-size: calc((1.4 - 1) * 1.2vw + 1rem);
+    font-family: anziano;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+h1{
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: uppercase;
+    line-height: 1.4em;
+    font-size: calc((4.9 - 1) * 1.2vw + 1rem);
+}
+
+h3{
+
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: 0em;
+        text-transform: uppercase;
+        line-height: 1.4em;
+        font-size: calc((4.9 - 1) * 1.2vw + 1rem);
+    
+}
+
+#HomeLinks{
+    margin-top: 50px;
+    padding-left:5%;
+    color: #f08e80 ;
+}
+
+#HomeLinks h1{
+    margin-bottom:30px;
+}
+
+#HomeLinks h1 a{
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: currentColor;
+    text-decoration-thickness: 1px;
+    text-underline-offset: .2em;
+    text-decoration-skip: auto;
+    text-decoration-skip-ink: auto;
+}
+
+#HomeLinks h3 a{
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: currentColor;
+    text-decoration-thickness: 1px;
+    text-underline-offset: .2em;
+    text-decoration-skip: auto;
+    text-decoration-skip-ink: auto;
+}
+
+.minerva-font{
+    font-family: minerva-modern !important;
+    color:#f08e80 !important;
+    font-size: calc((4.9 - 1) * 1.2vw + 1rem)
+}
+
+h3 .minerva-font{
+font-size: calc((3.5 - 1) * 1.2vh + 1rem);
+}
+
+@media only screen and (max-width: 1000px) {
+    #LandingImage{
+        background-size: auto;
+        background-position-y: -300px;
+    }
+   
+}
+
+@media only screen and (max-width: 992px) {
+    .navbar-nav{
+        text-align: center;
+        float: none !important;
+        background-color: #f18e80;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #LandingImage{
+        background-size: auto;
+        background-position-x: -100px;
+    }  
+
+    .navbar-nav{
+        text-align: center;
+        float: none;
+        background-color: #f18e80;
+    }
+}
+
+
+
+@media only screen and (max-width: 680px) {
+    #LandingImage{
+        background-position-x: -200px;
+    }  
+}
+
+@media only screen and (max-width: 575px) {
+    #LandingImage{
+        background-position-x: -400px;
+    }  
+}
+
+
+@media only screen and (max-width: 1150px) {
+    #LandingImage{
+        background-position-y: -400px;
+    }
+   
+}
+
+
+/* About section */
+
+#AboutDiv{
+    float:left;
+    max-width:43%;
+    margin-top:100px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+#AboutContent div{
+    overflow:auto; 
+}
+
+#AboutDiv p{
+color:#61271f;
+font-family: anziano;
+font-weight: 400;
+font-style: normal;
+letter-spacing: 0em;
+text-transform: none;
+font-size: calc((1.5 - 1) * 1.2vw + 1rem);
+}
+
+#AboutDiv h1{
+    color:#61271f;
+    font-family: minerva-modern;
+    font-weight: 10;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: uppercase;
+
+    font-size: calc((2.9 - 1) * 1.2vw + 1rem);
+    margin-bottom: 30px;
+}
+
+#AboutImage{
+    margin-top:100px;
+    display: inline-block;
+    vertical-align: top;
+    float: right;
+    height:110vh;
+    width:40%;
+    background-size:contain;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-image: url("aboutImage.jpg");
+}
+
+#AboutContent{
+    margin-right: 5%;
+    margin-left:5%;
+}
+
+#AboutContent #HomeLinks{
+ padding-left:0;
+}
+
+@media only screen and (max-width:490px) {
+    #AboutImage{
+        width:90%;
+        height: 100vw;
+        
+    }
+
+    #AboutDiv{
+        width: 100%;
+        max-width: 100%;
+        margin-top:20px;
+    }
+
+}
+
+/*Resume CSS */
+
+#ResumeDiv{
+    overflow:auto; 
+    margin-right:5%;
+    margin-left:5%;
+    margin-top:40px;
+}
+
+#ResumeDiv div{
+    overflow:auto; 
+}
+
+#ResumeContent{
+    float:right;
+    width:60%;
+    margin-top:10px;
+}
+
+#BiancaTitle{
+    font-family: minerva-modern;
+    font-weight: 400;
+    /* font-style: normal; */
+    letter-spacing: 0em;
+    text-transform: uppercase;
+    color: #f08e80;
+    margin-bottom: 40px;
+}
+
+#ResumeDiv strong{
+    color:#61271f;
+}
+
+#ResumeDiv p{
+    color:#61271f;
+    font-family: anziano;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0em;
+}
+
+#ResumeDiv h1{
+    color: #f08e80;
+    font-family: minerva-modern;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: uppercase;
+    font-size: calc((4.9 - 1) * 1.2vw + 1rem);
+}
+
+
+#ResumeDownload{
+    width: 33%;
+    display: inline-block;
+}
+
+#Nav > nav{
+    padding:0;
+}
+
+#ResumeDownload p{
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+#ResumeDownload #ResumeButton{
+    width:fit-content;
+    font-size: calc((1.1 - 1) * 1.2vw + 1rem);
+    font-family: anziano;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: none;
+    letter-spacing: 0em;
+    padding:1.2em 2.004em;
+    height: auto;
+}
+
+@media only screen and (max-width:730px) {
+    #ResumeDownload{
+        width:90%;
+    }
+    #ResumeContent{
+        width:90%;
+    }
+}
+
+/*Portfolio stuff */
+
+
+/*Contact*/
+#ContactText{
+    margin-top:80px;
+    margin-bottom: 190px;
+    width: 45%;
+    margin-left:5%;
+    font-family: minerva-modern;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: uppercase;
+    font-size: calc((3.9 - 1) * 1.2vh + 1rem);
+    color: #f08e80;
+}

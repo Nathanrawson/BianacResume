@@ -1,0 +1,207 @@
+.portfolio-square{
+    width:27vw;
+    height:27vw;
+    background-color: red;
+    display: inline-block;
+    vertical-align: top;
+    margin:2%;
+}
+
+.portfolio-square div{
+    width:27vw;
+    height:27vw;
+}
+
+.portfolio-square div h3{
+    max-height: 27vw;
+    overflow-y: scroll;
+    padding-top:8vw;
+    font-size: calc((2.3 - 1) * 1.2vw + 1rem);
+    font-family: minerva-modern;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: uppercase;
+    line-height: 1.4em;
+    width: 27vw;
+    color: #61271f;
+  opacity: 0;
+}
+
+.portfolio-square div:hover{
+  background-color: #fdf0e6;
+  opacity: 0.7;
+}
+
+#PortfolioContent{
+    text-align: center;
+}
+
+#PortfolioContent > div > h3{
+    font-size: calc((2.9 - 1) * 1.2vw + 1rem);
+    font-family: minerva-modern;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: uppercase;
+    color:#f08e80;
+    margin-top:150px;
+    margin-bottom: 250px;
+
+}
+
+#BottomLinks{
+    color:#f08e80;
+}
+
+#Portfolio1{
+    background-image: url("./biancaUEL.jpg");
+    background-size:cover; 
+    background-position-y: -100px;
+}
+
+#Portfolio2{
+    background-image: url("./BiancaStudentBeans.jpg");
+    background-size:cover; 
+    background-position-y: -100px;
+}
+
+#Portfolio3{
+    background-image: url("./BiancaKeto.jpg");
+    background-size:cover; 
+    background-position-y: -100px;
+}
+
+#DetailImage{
+    width:40%;
+    display:inline-block;
+    background-size: cover;
+    background-image: url("./biancaUEL.jpg");
+    height: 75vw;
+    margin-left: 5%;
+    margin-bottom:20vw;
+}
+
+#DetailWords{
+    float:right;
+    width:40%;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom:5vw;
+}
+
+#DetailWords h3{
+font-size: calc((1.7 - 1) * 1.2vw + 1rem);
+font-family: minerva-modern;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: uppercase;
+    color:#f08e80;
+}
+
+#DetailWords div div{
+    font-size: calc((1.1 - 1) * 1.2vw + 1rem);
+    font-family: anziano;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+    line-height: 1.6em;
+    color:#61271f;
+   
+    }
+
+
+    #DetailWords > div{
+       
+        margin-right:6vw;
+    }
+
+    #DetailWords #WordingContent a{
+       
+        color: #f08e80 !important;
+        text-decoration: underline;
+    }
+
+    #PortfolioMain{
+        height: fit-content;
+    }
+
+    #PortfolioLinks{
+        width:95%;
+        margin-left:5%;
+        margin-top:50px;
+        margin-bottom: 200px;
+        height: fit-content;
+    }
+
+    @media only screen and (max-width: 750px) {
+        .portfolio-square{
+            width: 90vw;
+        height: 90vw;
+        }
+        .portfolio-square div{
+            width:90vw;
+            height:90vw;
+        }
+
+        .portfolio-square div h3 {
+            padding-top:50%;
+            max-height: 90vw;
+            width:90vw;
+        }
+    }
+
+    .portfolio-link-div{
+        width:50%;
+    }
+
+    .portfolio-inner-div1{
+        display: inline-block;
+        width:90%;
+        vertical-align: middle;
+    }
+
+    .portfolio-inner-div2{
+        width:10%;
+        vertical-align: middle;
+        display: inline-block;
+    }
+    
+
+    #WordingContent{
+        height: fit-content;
+        margin-bottom: 20vw;
+        min-height: 600px;
+    }
+
+
+
+    @media only screen and (max-width: 1006px) {
+        #DetailWords{
+            width:90%;
+        }
+
+        #DetailImage{
+            width:90% !important;
+        }
+    }
+    .portfolio-link{
+        color:#61271f !important;
+        line-height: 1;
+        font-size: calc((2.9 - 1) * 1.2vw + 1rem);
+        font-family: minerva-modern;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: 0em;
+        text-decoration: unset;
+        text-transform: uppercase;
+    }
+
+    @media only screen and (max-width: 700px) {
+
+    .portfolio-link-div{
+        width:100%;
+    }
+}
