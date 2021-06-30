@@ -14,9 +14,7 @@ const Nav = (props) => {
                     <li className=" nav-item active">
                         <Link to={() => window.location.href.includes("/") ? "../about" : "./about"}><p className="nav-link" >About<span className="sr-only">(current)</span></p></Link>
                     </li>
-                    <li className="pull right nav-item active">
-                        <Link to={() => window.location.href.includes("/") ? "../resume" : "./resume"}><p className="nav-link" >Resume<span className="sr-only">(current)</span></p></Link>
-                    </li>
+                  
                     <li className="pull right nav-item active">
                         <Link to={() => window.location.href.includes("/") ? "../portfolio" : "./portfolio"}><p className="nav-link">Portfolio<span className="sr-only">(current)</span></p></Link>
                     </li>
