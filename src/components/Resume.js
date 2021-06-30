@@ -1,5 +1,4 @@
 import React from 'react'
-import BottomLinks from './BottomLinks'
 import './App.css';
 
 const Resume = (props) => {
