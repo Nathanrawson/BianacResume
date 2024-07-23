@@ -17,7 +17,7 @@ const Home = (props) => {
                     MARKETER.
             </h1>
             </div>
-            <Link to="/Bianca+Franco+Resume+2021.pdf" target="_blank" ><button id="ResumeButton" className="btn btn-primary">Resume</button></Link>
+            <Link to="/Bianca-Franco-Resume-2021.pdf" target="_blank" ><button id="ResumeButton" className="btn btn-primary">Resume</button></Link>
         </div>
     </div>
         <div id="HomeLinks">
