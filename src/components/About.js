@@ -10,23 +10,8 @@ const About = (props) => {
             </div>
             <div id="AboutDiv">
                 <h1>About</h1>
-                <p>My name is Bianca and I recently graduated with my Master’s in International Business Management from
-                the
-                University of East London. I have spent the last 5 years working in the social media industry,
-                specializing
-                in content creation. I’ve recently moved back to the US and I’m looking for my next role as a Social
-                Media
-                Marketer.<br></br><br></br>As a Social Media Marketer, I have a passion for content creation and have a deep
-                understanding of the digital media space and the role of social media channels such as Tiktok,
-                Instagram,
-                Facebook, Twitter, Youtube, LinkedIn, and Pinterest.<br></br><br></br>I know how to engage an audience, spot
-                emerging
-                social media trends, turn analytics into strategy, and develop innovative and captivating social
-                media
-                content for any target market.<br></br><br></br>In my spare time, I enjoy taking on creative projects -
-                whether it
-                be
-                graphic design, interior design, or video projects!</p>
+                <p>Hi, I'm Bianca! I've spent the last 7 years immersed in the social media industry, specializing in content creation and strategy. <br></br><br></br>For the past 3 years, I've managed several Microsoft brand accounts, amassing over 7 million followers across X (Twitter), Instagram, and TikTok. My focus has been on creating engaging content, crafting effective strategies, and fostering vibrant communities.<br></br><br></br>My true passion lies in content creation, particularly for TikTok and Instagram. In my spare time, I freelance for brands like Dunkin’ Donuts UK, Banza, and StudentBeans, bringing their social media presence to life.
+                Beyond work, I'm a big foodie, love fashion, enjoy traveling, and thrive on being creative.<br></br><br></br>When it comes to all things social, I thrive at engaging audiences, spotting emerging trends, transforming analytics into actionable strategies, and developing innovative, captivating content for any target market.</p>
             </div>
 
         </div>
