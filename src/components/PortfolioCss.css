@@ -72,6 +72,29 @@
     background-position-y: -100px;
 }
 
+#Portfolio4{
+    background-image: url("./image (1).png");
+    background-size:cover; 
+    background-position-y: -100px;
+}
+
+#Portfolio5{
+    background-image: url("./image.png");
+    background-size:cover; 
+    background-position-y: -100px;
+}
+
+#Portfolio6{
+    background-image: url("./IMG_5777.jpg");
+    background-size:cover; 
+    background-position-y: -100px;
+}
+
+#Portfolio7{
+    background-image: url("./original-C2AD743D-CCD8-46B2-841D-B4DF768766C3.jpg");
+    background-size:cover; 
+    background-position-y: -100px;
+}
 #DetailImage{
     width:40%;
     display:inline-block;
